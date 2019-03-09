@@ -3,8 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
+  padding-bottom: 15px;
+  color: #777;
 }
 
 
@@ -13,7 +13,7 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
+  position: inherit;
   top: 0;
   right: 0;
   left: 0;
@@ -30,7 +30,7 @@ body {
   padding-left: 15px;
 }
 .navbar-wrapper .navbar .container {
-  width: auto;
+  width: 365px;
 }
 
 
@@ -38,27 +38,28 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
-  height: 500;
-  margin-bottom: 60px;
-  background-color: #F0F8FF;
+.myCarousel {
+  max-height: 300px;
+  max-width: 350px;
+  margin-bottom: 0px;
+  background-color: #5a5a5a;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+  z-index: 5;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 350;
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: inherit;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 500px;
+  min-width: 50%;
+  max-height: 350px;
 }
 
 
