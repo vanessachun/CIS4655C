@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/vanessachun/CIS4655C/Module06/css/bootstrap.min.css">
+    <script src="/vanessachun/CIS4655C/Module06/js/bootstrap.min.js"></script>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/vanessachun/CIS4655C/Module06/favicon.ico">
+
+    <title>CIS4655C Winter 2019</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/vanessachun/CIS4655C/Module06/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/vanessachun/CIS4655C/Module06/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/vanessachun/CIS4655C/Module06/css/jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/CIS4655C/Module06/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/vanessachun/CIS4655C/Module06/assets/js/ie-emulation-modes-warning.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/vanessachun/CIS4655C/Module06/index.html">Home</a>
+          <a class="navbar-brand" href="/vanessachun/CIS4655C/Module06/album/index.html">Album</a>
+          <a class="navbar-brand" href="/vanessachun/CIS4655C/Module06/blog/index.html">Blog</a>
+          <a class="navbar-brand" href="/vanessachun/CIS4655C/Module06/currentevents/index.html">Current Events</a>
+          <a class="navbar-brand" href="/vanessachun/CIS4655C/Module06/form/index.html">Form</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <p></p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <h2 align="left">CIS4655C Winter 2019</h2>
+              <p align="left">This is a template for a responsive website for the CIS4655C Section 01 Advanced Mobile Web Application Development - Online Plus - 2019 Winter Quarter Term 2 course.</p>
+              <p align="left"><a class="btn btn-primary btn-lmd" href="https://www.rasmussen.edu/degrees/technology/computer-science/" target="blank" role="button">For more information &raquo;</a></p>
+            </div>
+            <div class="row">
+              <button class="alert btn-danger btn-lmd">Get Notification</button>
+
+              <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+              <script>
+                 // trigger when button click
+                 $('.alert').on('click', function(){
+                 	toastr["error"]("CIS4655C - Winter 2019","This course has ended as of March 15, 2019. This site will no longer be updated.");
+                 });
+                 toastr.options = {
+                   "closeButton": true,
+                   "debug": false,
+                   "newestOnTop": false,
+                   "progressBar": false,
+                   "positionClass": "toast-top-right",
+                   "preventDuplicates": false,
+                   "onclick": null,
+                   "showDuration": "300",
+                   "hideDuration": "1000",
+                   "timeOut": "10000",
+                   "extendedTimeOut": "1000",
+                   "showEasing": "swing",
+                   "hideEasing": "linear",
+                   "showMethod": "fadeIn",
+                   "hideMethod": "fadeOut"
+                 }
+              </script>
+
+            </div>
+          </div>
+          <div class="col-md-1">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <p align="center"><img src="/vanessachun/CIS4655C/Module06/img/placeholderimg.png" class="img-circle" style="max-width:65%;height:auto;" alt="Placeholder Image" class="responsive" /></p>
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="/vanessachun/CIS4655C/Module06/album/index.html" role="button">Go to Album &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <p align="center"><img src="/vanessachun/CIS4655C/Module06/img/placeholderimg.png" class="img-circle" style="max-width:65%;height:auto;" alt="Placeholder Image" class="responsive" /></p>
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="/vanessachun/CIS4655C/Module06/blog/index.html" role="button">Go to Blog &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <p align="center"><img src="/vanessachun/CIS4655C/Module06/img/placeholderimg.png" class="img-circle" style="max-width:65%;height:auto;" alt="Placeholder Image" class="responsive" /></p>
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="/vanessachun/CIS4655C/Module06/currentevents/index.html" role="button">Go to Current Events &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2019 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/CIS4655C/Module06/assets/js/vendor/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/CIS4655C/Module06/assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="/CIS4655C/Module06/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/CIS4655C/Module06/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
